@@ -10,7 +10,7 @@
     $calc = new Calculate($oper, (int)$num1, (int)$num2);
 
     try {
-        echo $calc->calculator();
+        header("Location: ../?result=".$calc->calculator());
     } catch (TypeError $e) {
         echo "ERROR!: ". $e->getMessage();
     }
