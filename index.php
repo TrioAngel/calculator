@@ -15,10 +15,10 @@
 </head>
 <body>
     
-    <form action="includes/calc.inc.php">
+    <form action="includes/calc.inc.php" method="post">
         <h3>My Own Calculator</h3>
         <input type="number" name="num1" placeholder="First Number">
-        <select name="opr">
+        <select name="oper">
             <option value="add">+</option>
             <option value="sub">-</option>
             <option value="mul">*</option>
