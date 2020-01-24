@@ -29,5 +29,13 @@
     </form>
     <br>
 
+    <h3>Result: <?php 
+        if (isset($_GET['result'])){
+            echo $_GET['result'];
+        }else {
+            echo "Now you can calculate)))";
+        }
+    ?></h3>
+
 </body>
 </html>
